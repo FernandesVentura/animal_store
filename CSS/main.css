@@ -65,3 +65,12 @@ header {
 textarea {
     resize: none;
 }
+
+@media (max-width: 767px){
+    #cadastro-pet img{
+        margin-bottom: 10px;
+    }
+    #produtos img {
+        margin: 0;
+    }
+}
