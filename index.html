@@ -1,0 +1,374 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <header class="navbar  navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">
+                <a href="#">
+                    <img class="patacao" src="images/patacao.png" alt="">
+                    Animal<span class="text-colored ">Store</span>
+                </a>
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link active" href="#sobre-a-loja">
+                            <i class="bi bi-shop me-1 "></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#promocoes">
+                            <i class="bi bi-dropbox me-1"></i> 
+                            Promoções
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#produtos">
+                            <i class="bi bi-basket me-1"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-plus-square me-1"></i>
+                            Cadastro
+                            </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide " data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/slide1.webp" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide2.webp" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide3.webp" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide4.webp" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <div class="pb-5 pt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="images/carta de entrada/imagem sobre a loja.webp" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <h2 class="section-title">Sobre a Animal<span class="text-colored">Store</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit commodi aliquam voluptates officia. Corrupti saepe ratione ut dolorem velit quidem.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quidem reiciendis, optio ab deserunt distinctio quia! Rem distinctio a illo vero .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="pt-3 pb-5">
+                <div class="container">
+                    <div class="row mb-3">
+                        <h2 class="section-title ">Cadastre o seu <span class=" text-colored">Animal</span></h2>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-6 opcao-animal" data-pet="cachorro">
+                            <a href="#">
+                                <img src="images/direcionamento/direcionamento2.webp" class="rounded w-100" alt="Cachorro">
+                            </a>
+                        </div>
+                        <div class="col-md-6 opcao-animal" data-pet="gato" >
+                            <a href="#">
+                                <img src="images/direcionamento/direcionamento3.webp" class="rounded w-100" alt="Gato">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="promocoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="mb-5">
+                    <h2 class="section-title text-center">Nossas <span class="text-colored">Promoções</span></h2>
+                </div>
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel1">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/promocao/promocao1.webp" class="w-100" data-bs-interval="3000" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/promocao/promocao2.webp" class="w-100" data-bs-interval="3000" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/promocao/promocao3.webp" class="w-100" data-bs-interval="3000" alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="mt-5 mb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">Produtos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#racoes" class="fw-bold text-start nav-link active text-colored">Rações</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#brinquedos" class="fw-bold text-start nav-link text-colored"> Brinquedos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#acessorios" class="fw-bold text-start nav-link text-colored">Acessórios</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="racoes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/racoes/racao1.webp" alt="">
+                                        <h5 class="text-colored text-center"> Ração Dibra</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mx-5">
+                                        <img class="d-block w-100 " src="images/racoes/racao2.webp" alt="">
+                                        <h5 class="text-center text-colored">Natura Diet</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/racoes/racao3.webp" alt="">
+                                        <h5 class="text-center text-colored">Royal Canin</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/racoes/racaogato1.webp" alt="">
+                                        <h5 class="text-colored text-center"> Royal Canin</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mx-5">
+                                        <img class="d-block w-100 " src="images/racoes/racaogato2.webp" alt="">
+                                        <h5 class="text-center text-colored">Ração Nath</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/racoes/racaogato3.webp" alt="">
+                                        <h5 class="text-center text-colored">Ração Advance</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane " id="brinquedos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="w-100 d-block" src="images/brinquedos/brinquedocao1.webp" alt="">
+                                        <h5 class="text-colored text-center">Girafa Mordedor</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mx-5">
+                                        <img class="d-block w-100" src="images/brinquedos/brinquedocao2.jpg" alt="">
+                                        <h5 class="text-center text-colored">Polvo Mordedor</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/brinquedos/brinquedocao3.webp" alt="">
+                                        <h5 class="text-center text-colored">Osso Mordedor</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/brinquedos/brinquedogato1.webp" alt="">
+                                        <h5 class="text-center text-colored">Rato de Pega</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mx-5">
+                                        <img class="d-block w-100" src="images/brinquedos/brinquedogato2.webp" alt="">
+                                        <h5 class="text-center text-colored">Joaninha de Pega</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/brinquedos/brinquedogato3.webp" alt="">
+                                        <h5 class="text-colored text-center">Laser Vermelho</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane " id="acessorios">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="w-100 d-block" src="images/acessorios/acessorioscao1.webp" alt="">
+                                        <h5 class="text-colored text-center">Peitoral Cão</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mx-5">
+                                        <img class="d-block w-100" src="images/acessorios/acessorioscao2.webp" alt="">
+                                        <h5 class="text-center text-colored">Trela Cão</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/acessorios/acessorioscao3.webp" alt="">
+                                        <h5 class="text-center text-colored">Fucinheira Cão</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/acessorios/acessoriosgato1.webp" alt="">
+                                        <h5 class="text-center text-colored">Arranhador Gato</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 mx-5">
+                                        <img class="d-block w-100" src="images/acessorios/acessoriosgato2.webp" alt="">
+                                        <h5 class="text-center text-colored">Casinha Gato</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/acessorios/acessoriosgato3.webp" alt="">
+                                        <h5 class="text-colored text-center">Comedouro Inteligente</h5>
+                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form id="form">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                        <input type="text" class="form-control" id="nome" required>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="nome-pet" class="form-label fw-bold text-colored">Nome do seu Pet</label>
+                                        <input type="text" class="form-control" id="nome-pet" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (Opcional) </label>
+                                        <input type="text" class="form-control" id="telefone">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label for="opcao" class="form-label fw-bold text-colored">Seu Pet é um:</label>
+                                        <select class="form-control" name="opcao" id="opcao" >
+                                            <option value="opcao0">Selecionar</option>
+                                            <option value="cachorro">Cão</option>
+                                            <option value="gato">Gato</option>
+                                        </select>
+    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook  text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram  text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp  text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua João das Regras nº 1080, Valbom - Porto - PT </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="JS/jquery.mask.min.js"></script>
+    <script src="JS/jquery.validate.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>

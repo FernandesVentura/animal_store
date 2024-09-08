@@ -1,0 +1,67 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: #fff;
+}
+
+.patacao {
+    height: 50px;
+}
+
+.nav .nav-link.active {
+    background-color: rgb(81, 169, 81);
+    color: #fff;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #000;
+}
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+.section-title {
+    font-family: Concert One, cursive;
+}
+
+.navbar-brand a{
+    color: #000;
+    text-decoration: none;
+}
+
+.text-colored {
+    color: rgb(81, 169, 81);
+}
+
+.carousel img {
+    width: 100%;
+}
+
+#sobre-a-loja,
+#promocoes{
+    background-color: rgba(81, 169, 81, 0.192);
+}
+
+.nav-produtos .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(81, 169, 81);
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
